@@ -1,0 +1,204 @@
+/* btn- color #cb154d */
+/* theme color #101010 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/* ================= css reset =============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* ========================= Header Start Here ==================== */
+.header{
+    background-color:#101010 ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.span{
+    color: #cb154d;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.btn-1{
+    padding: 8px 33px;
+    border-radius: 33px;
+    background-color: #cb154d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* ========================= Header End Here ==================== */
+
+/* ========================= Banner Start Here ==================== */
+.banner{
+    background-color: #101010;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 1%;
+}
+.p1{
+    color: #fff;
+    padding: 3% 0%;
+    font-size:20px;
+}
+.email{
+    display: flex;
+    width: 100%;
+    padding:2px 0;
+    padding-left: 15px;
+    border-radius: 33px;
+    border: none;
+    background-color: #fff;
+    color: gray;
+    margin-top: 20px;
+}
+
+.ema{
+    width: 60%;
+    padding-top: 5px;
+    padding-left:10px ;
+    margin-right: 7%;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+}
+.banner-con .h1{
+    font-size: 4rem;
+}
+/* ========================= Banner End Here ==================== */
+
+
+/* ========================= About Start Here ==================== */
+.about{
+    background-color: #232323;
+}
+.about-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+.about-pra{
+    width: 50%;
+}
+.about-pra .h1{
+    font-size: 3rem;
+}
+.p2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.pra{
+    color: #fff;
+    margin: 5% 0;
+}
+/* ========================= About End Here ==================== */
+
+ /* =========================Services Start Here ====================   */
+ .Services{
+    text-align: center;
+    background-color: #101010;
+    color: #fff;
+    padding: 3% 0;
+
+ }
+ .Services h1{
+    font-size: 4rem;
+ }
+.ser{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.item{
+    width: 22%;
+    margin: 1%;
+    padding: 4% 2%;
+    background-color: #232323;
+    border-radius: 8px;
+}
+.item i{
+    font-size: 35px;
+    color: #cb154d;
+    margin-bottom: 10px;
+}
+.item .p2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.item .p1{
+    font-size: 10px;
+    line-height: 2;
+}
+ /* =========================Services End Here ====================   */
+
+ /* =========================Skills Start Here ==================== */
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+    padding: 4%;
+}
+.skill p{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 1%;
+}
+ /* =========================Skills End Here ==================== */
+
+ /* =========================Footer Start Here ==================== */
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #101010;
+    color: #fff;
+    text-align: center;
+}
+.f1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.media{
+    width: 50%;
+    margin-top: 2%;
+}
+.media span{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #cb154d;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ /* =========================Footer End Here ==================== */
